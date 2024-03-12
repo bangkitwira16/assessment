@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input, select {
+        border-radius: 10px;
+        padding: 10px;
+        width: max-content;
+    }
+
+    button {
+        width: max-content;
+        padding: 10px;
+        border-radius: 10px;
+        min-width: 150px;
+    }
+
+    .validation-messages {
+        color: red;
+    }
+}
