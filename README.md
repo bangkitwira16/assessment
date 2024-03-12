@@ -1,10 +1,13 @@
-# AssesmentTest
+# Assesment Test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Start DB
+To start **db** for questions number 2 run `start:server` then it will run **json server** for mock API. if wanted to resulting error messages for the questions number 2 no need to run this.
 
 ## Code scaffolding
 
