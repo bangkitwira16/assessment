@@ -1,0 +1,10 @@
+<h2>Parent Component</h2>
+<ul>
+  @defer (when selectedItem.length) { @for (item of selectedItem; track item.id)
+  {
+  <li>{{ item.name }} - {{ item.description }}</li>
+  } } @placeholder {
+  <div>No items selected</div>
+  }
+</ul>
+<app-child [items]="items" (itemSelected)="onItemSelected($event)"> </app-child>
