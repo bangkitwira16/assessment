@@ -1,0 +1,13 @@
+<!-- condition's to check error message -->
+@if (errorMessage){
+<p class="error-message">{{ errorMessage }}</p>
+} @else {
+<ul>
+  <!-- For check when item exists and add default placeholder -->
+  @defer (when items.length) { @for (item of items; track item) {
+  <li>{{ item.name }} - {{ item.description }}</li>
+  } } @placeholder {
+  <div>Loading...</div>
+  }
+</ul>
+}
