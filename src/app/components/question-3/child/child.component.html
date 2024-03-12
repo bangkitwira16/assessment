@@ -1,0 +1,6 @@
+<h2>Child Component</h2>
+<ul>
+  @for (item of items; track item.id) {
+  <li (click)="selectItem(item)">{{ item.name }} - {{ item.description }}</li>
+  }
+</ul>

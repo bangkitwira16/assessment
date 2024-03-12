@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+
+  li {
+    border: 1px solid green;
+    background: rgb(196, 255, 196);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: max-content;
+    margin-bottom: 15px;
+  }
+}
