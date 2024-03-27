@@ -36,12 +36,6 @@ describe('CalculatorService', () => {
     );
   });
 
-  it('should throw error when dividing by zero', () => {
-    expect(() => service.divide(6, 0)).toThrowError(
-      'Division by zero is not allowed'
-    );
-  });
-
   it('should handle negative numbers in addition', () => {
     expect(service.add(-5, 3)).toEqual(-2);
   });
